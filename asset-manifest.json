@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Deck-Page/static/css/main.a1754b9a.chunk.css",
+    "main.js": "/Deck-Page/static/js/main.be7df41d.chunk.js",
+    "main.js.map": "/Deck-Page/static/js/main.be7df41d.chunk.js.map",
+    "runtime-main.js": "/Deck-Page/static/js/runtime-main.51face6d.js",
+    "runtime-main.js.map": "/Deck-Page/static/js/runtime-main.51face6d.js.map",
+    "static/css/2.d45d6843.chunk.css": "/Deck-Page/static/css/2.d45d6843.chunk.css",
+    "static/js/2.a5ec91e9.chunk.js": "/Deck-Page/static/js/2.a5ec91e9.chunk.js",
+    "static/js/2.a5ec91e9.chunk.js.map": "/Deck-Page/static/js/2.a5ec91e9.chunk.js.map",
+    "static/js/3.0d4746ae.chunk.js": "/Deck-Page/static/js/3.0d4746ae.chunk.js",
+    "static/js/3.0d4746ae.chunk.js.map": "/Deck-Page/static/js/3.0d4746ae.chunk.js.map",
+    "index.html": "/Deck-Page/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/Deck-Page/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.a1754b9a.chunk.css.map": "/Deck-Page/static/css/main.a1754b9a.chunk.css.map",
+    "static/js/2.a5ec91e9.chunk.js.LICENSE.txt": "/Deck-Page/static/js/2.a5ec91e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51face6d.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.a5ec91e9.chunk.js",
+    "static/css/main.a1754b9a.chunk.css",
+    "static/js/main.be7df41d.chunk.js"
+  ]
+}
