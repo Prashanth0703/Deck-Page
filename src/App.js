@@ -17,12 +17,12 @@ function App() {
             <Header />
             <Router>
                 <Switch>
-                    <Route exact path="/Login" component={Login} />
-                    <Route exact path="/DeckPage" component={DeckPage} />
-                    <Route exact path="/Deck" component={Deck} />
-                    <Route exact path="/Cards" component={Cards} />
-                    <Route exact path="/Card" component={Card} />
-                    <Route exact path="/" component={CardPageTwo} />
+                    <Route path="/Login" component={Login} />
+                    <Route path="/DeckPage" component={DeckPage} />
+                    <Route path="/Deck" component={Deck} />
+                    <Route path="/Cards" component={Cards} />
+                    <Route path="/Card" component={Card} />
+                    <Route path="/" component={CardPageTwo} />
                 </Switch>
                 <Footer />
             </Router>
