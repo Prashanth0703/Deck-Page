@@ -1,0 +1,68 @@
+.headng{
+    color: black;
+}
+.container-fluid {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    color: white;
+	transform: translateY(-50%) translateX(-50%);
+    width: 100%;
+}
+.card {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: 0;
+    border-radius: 0;
+    width: 450px;
+    margin-left: 20px;
+	height: 350px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card .card-img-overlay:before {
+	background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transition: all 0.3s ease-in;
+	width: 100%;
+}
+
+.card .card-text {
+	bottom: 0;
+	color: white;
+	left: 0;
+	opacity: 0;
+	padding: 1.25em;
+	position: absolute;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	transition: all .3s linear;
+	width: 100%;
+}
+
+.card .card-title {
+	bottom: 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 15px;
+	position: absolute;
+	right: 0;
+	transition: all 0.3s ease-out;
+}
+
+.card:hover .card-img-overlay:before {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .card-text {
+	opacity: 1;
+}
+
+.card:hover .card-title {
+	transform: translate(-25%, -500%);
+}
